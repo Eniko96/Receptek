@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0 
+}
+
+html{
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    height: 1500px;
+}
+
+body{
+    background: url("../pics/bg-body.jpg") fixed;
+}
+
+.header{
+    color: white;
+    font-size: 2.5rem;
+    background: url("../pics/bg-header.jpg");
+    height: 300px;
+}
+
+.header h1{
+    padding: 60px 0px 60px 60px;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+.menu{
+    width:24.999%;
+    float: left;
+    background-color: #333030;
+    height: 1000px
+}
+
+.menu ul{
+        list-style: none;
+        text-align: left;
+        padding: 30px 20px 0 20px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    border-bottom: white dashed 2px;
+    line-height: 3;
+ }
+
+
+.clearfix::after, .footer::after{
+    content:"";
+    clear:both;
+    display:table;
+}
+
+p{
+    padding: 0 20px;
+}
+
+.content{
+    width:74.999%;
+    float: left;
+    background: white;
+    overflow: auto;
+    height: 1000px;
+}
+
+.content .jobbra{
+    float: right;
+    padding: 0 20px 10px 20px;
+}
+
+.content .balra{
+    float: left;
+    padding: 0 20px 10px 20px;
+}
+
+h2 span{
+    font-size: 3rem;
+    color: white;
+    background-color: green;
+    padding: 0 10px;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    line-height: 1.7;
+}
+
+h2{
+    padding: 30px 30px 10px 20px;
+}
+
+.footer .jobbra{
+    float: right;
+}
+
+.footer .balra{
+    display: inline;
+}
+
+.footer a{
+    color: black;
+}
+
+.footer{
+    color: black;
+    padding-top: 10px;
+}
+
+
+
